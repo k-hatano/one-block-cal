@@ -9,18 +9,20 @@
 	    android:id="@+id/textview_center_large"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
+	    android:textColor="@color/white"
 	    android:textAppearance="?android:attr/textAppearanceLarge"
 	    android:gravity="center"
-	    android:text="甲"
+	    android:text="\?"
 	    />
 	
 	<TextView
 	    android:id="@+id/textview_bottom_small"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
+	    android:textColor="@color/white"
 	    android:textAppearance="?android:attr/textAppearanceSmall"
 	    android:gravity="center_horizontal|bottom"
-	    android:text="kinoe"
+	    android:text="\?"
 	    />
     
 </RelativeLayout>

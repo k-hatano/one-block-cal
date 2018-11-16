@@ -16,6 +16,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <color name="black_translucent">#00000080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_translucent">#80000000</color>
 
 </resources>

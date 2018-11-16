@@ -5,7 +5,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="8" />
+        android:targetSdkVersion="18" />
 
     <application
         android:allowBackup="true"
@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme" >
         
         <receiver
-            android:name="jp.nita.oneblockcal"
+            android:name="jp.nita.oneblockcal.AppWidgetProvider"
             android:label="OneBlockCal" >
             
             <intent-filter>

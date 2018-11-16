@@ -1,5 +1,29 @@
 <resources>
 
     <string name="app_name">OneBlockCal</string>
+    <string-array name="heavenly_stems_ideograph">
+        <item>甲</item>
+        <item>乙</item>
+        <item>丙</item>
+        <item>丁</item>
+        <item>戊</item>
+        <item>己</item>
+        <item>庚</item>
+        <item>辛</item>
+        <item>壬</item>
+        <item>癸</item>
+    </string-array>
+    <string-array name="heavenly_stems_romaji">
+        <item>kinoe</item>
+        <item>kinoto</item>
+        <item>hinoe</item>
+        <item>hinoto</item>
+        <item>tsuchinoe</item>
+        <item>tsuchinoto</item>
+        <item>kanoe</item>
+        <item>kanoto</item>
+        <item>mizunoe</item>
+        <item>mizunoto</item>
+    </string-array>
 
 </resources>
