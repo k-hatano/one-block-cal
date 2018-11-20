@@ -25,5 +25,7 @@
         <item>mizunoe</item>
         <item>mizunoto</item>
     </string-array>
+    <string name="message">This is a test message.</string>
+    <string name="ok">OK</string>
 
 </resources>

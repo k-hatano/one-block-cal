@@ -2,9 +2,11 @@ package jp.nita.oneblockcal;
 
 import java.util.Date;
 
+import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.widget.RemoteViews;
 
 public class AppWidgetProvider extends android.appwidget.AppWidgetProvider {
@@ -16,6 +18,10 @@ public class AppWidgetProvider extends android.appwidget.AppWidgetProvider {
 		RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.main);
 		views.setTextViewText(R.id.textview_center_large, Statics.getHeavenlyStemIdeograph(context, time));
 		views.setTextViewText(R.id.textview_bottom_small, Statics.getHeavenlyStemRomaji(context, time));
+		
+		Intent intent = new Intent(context, DialogActivity.class);
+		PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
+		views.setOnClickPendingIntent(R.id.layout_main, pendingIntent);
 		
 		ComponentName widget = new ComponentName(context, AppWidgetProvider.class);
         manager.updateAppWidget(widget, views);
