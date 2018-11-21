@@ -1,6 +1,11 @@
 <resources>
 
     <string name="app_name">OneBlockCal</string>
+    <string name="display_item">Display Item</string>
+    <string-array name="display_items">
+        <item>Heavenly Stem</item>
+        <item>Earthly Branch</item>
+    </string-array>
     <string-array name="heavenly_stems_ideograph">
         <item>甲</item>
         <item>乙</item>
@@ -24,6 +29,34 @@
         <item>kanoto</item>
         <item>mizunoe</item>
         <item>mizunoto</item>
+    </string-array>
+    <string-array name="earthly_branch_ideograph">
+        <item>子</item>
+        <item>丑</item>
+        <item>寅</item>
+        <item>卯</item>
+        <item>辰</item>
+        <item>巳</item>
+        <item>午</item>
+        <item>未</item>
+        <item>申</item>
+        <item>酉</item>
+        <item>戌</item>
+        <item>亥</item>
+    </string-array>
+    <string-array name="earthly_branch_romaji">
+        <item>ne</item>
+        <item>ushi</item>
+        <item>tora</item>
+        <item>u</item>
+        <item>tatsu</item>
+        <item>mi</item>
+        <item>uma</item>
+        <item>hitsuji</item>
+        <item>saru</item>
+        <item>tori</item>
+        <item>inu</item>
+        <item>i</item>
     </string-array>
     <string name="message">This is a test message.</string>
     <string name="ok">OK</string>
