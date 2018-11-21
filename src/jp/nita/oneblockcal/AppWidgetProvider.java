@@ -13,7 +13,7 @@ public class AppWidgetProvider extends android.appwidget.AppWidgetProvider {
 
 	static void updateWidget(Context context, AppWidgetManager manager, int id) {
 		Date date = new Date();
-		long time = date.getTime() + date.getTimezoneOffset() * 60 * 1000;
+		long time = date.getTime() - date.getTimezoneOffset() * 60 * 1000;
 		
 		RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.main);
 		views.setTextViewText(R.id.textview_center_large, Statics.getHeavenlyStemIdeograph(context, time));
